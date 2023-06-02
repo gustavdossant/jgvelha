@@ -1,0 +1,36 @@
+main {
+    text-align: center;
+}
+
+.tabuleiro div input {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid rgb(66, 200, 253);
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    font-size: 3rem;
+    font-variant: small-caps;
+    color: white;
+}
+
+.velha {
+    position: fixed;
+}
+
+
+.rein{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 25px;
+
+}
